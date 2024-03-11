@@ -1,6 +1,6 @@
 /**
  * @param {*} imageUrl : {category: string, images: string[]}
- * @param {*} categoryName
+ * @param {*} categoryName : string
  */
 function downloadImage(imageUrl, categoryName) {
   fetch(imageUrl)
